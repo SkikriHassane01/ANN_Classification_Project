@@ -5,6 +5,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 from tensorflow.keras.models import load_model
 import pickle
  
+ # you need to ensure that the version of the scikit-learn is the same that you use to pickle the files for my case i use 1.2.2 
 # Load the trained model
 model = load_model('model.h5')
 
